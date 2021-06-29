@@ -1,0 +1,59 @@
+Topics to be covered:
+-About CSS
+-CSS Syntax
+-CSS Object Model
+-How to include CSS in document
+-CSS Selectors
+-CSS Box Model
+-CSS Properties
+
+About CSS
+-Stands for Cascading Style Sheets
+-It is a style sheet language for describing the presentation of the documents written in Markup Language such as HTML.
+-CSS describes how tha elements are to be displayed on the screen or any media based on the properties.
+-It basically separates the presentation and content, which might include colors,font,size,etc.
+-It saves a lot of time and work, can control the layout and style formatting of multiple pages all at once.
+-Mimetype: text/css
+-Latest Version: CSS3
+-Extension to save the external css file: .css
+
+CSS Syntax
+-CSS has quite simple syntax and mostly makes use of English keywords which are descriptive enough.
+-It follows some rules, which consist of one or more selectors and a declaration block which comprises CSS Properties.
+-Selectors can be class,id,attributes and tag names.
+--Classes and IDs are case sensitive, can be alphanumeric with hyphen and underscores but always starts with a character.
+--Tag names are not case sensitive.
+-Declaration block can contain multiple properties separated by semi-colon(;) and every property has key and value separated by colon(:).
+selector{
+  property: value;
+  property_2: value_2;
+}
+
+CSS Object Model
+-DOM is for HTML, CSS Object Model is for CSS.
+-Allows CSS manipulations from Javascript.
+
+How to include CSS in document
+-There are 3 ways using which you can add style in your document.
+--External CSS
+--Internal CSS
+--Inline CSS
+Priority: Inline>Internal>External CSS
+
+-Cascading Order:
+--Most depends on: Source Order,Specificity, and importance.
+
+CSS Selectors
+-Selectors points to elements you want to style.
+-It can be tag name,class,id or attribute.
+-Multiple seectors can share same declaration block where selectors are separated by comma(,)
+-Type of selectors:
+--Universal
+--ID
+--Class
+--Tag
+--Combinators: specifies relation wrt to the combination used as a selector
+--Attribute: Based on te attribute that the elements can have
+--Pseudo_classes: To style elements based on certain state that element is in
+--Pseudo_elements: Style specified parts of an element based on the selector type.
+
