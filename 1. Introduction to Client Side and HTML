@@ -46,3 +46,54 @@ Scripting: script,canvas
 Other: iframe(embeds another HTML page into current one)
 Few HTML elements like hr does'nt contain any content. They are called empty elements.
 
+HTML Elements Display
+-Evary HTML element has default dispay value, depends on the elements.
+-Primarily 2 display values: 1.Block 2.Inline
+
+Block level elements
+-Always starts on a new line.
+-Takes up the full with available, starting from left.
+-Respects margin and padding.
+
+Inline Elements
+-Does'nt start on a new line.
+-Takes up as much width is necessary.
+-Does'nt respect margin and padding.
+
+HTML Forms
+-Forms are very powerful tool for interacting with the users.
+-They are used for collecting data from the users, or may be allowing them to control UI.
+-form tag is used to create a HTML form, it is type of container containing different types of input elements.
+-HTML input elements is one of the most used element and can be rendered in many different ways depending upon "type" attribute.
+-Types can be: text, radio, range,checkbox,password,search,file,date,hidden,submit,button.
+-Various form elements are input,select,textarea,optgroup,label,datalist,etc.
+-form tag attributes: action,method,target,enctype-application/x-www-form-urencoded, multipart/form-data
+
+Document Object Model
+-DOM is an interface that represents how your HTML and XML Documents are read by the brwoser.
+-It does'nt represent any relationship instead defines a logical structure.
+-It allows a language(Javascript) to manipulate, structure and style our website.
+-After browser reads your HTML document, it creates a representation tree called the DOM and defines how that tree can be accessed.
+-Each of the tags in HTML document are represented as Object in DOM.
+-Representation of HTML document in different format.
+Most common type of nodes:
+-Document Node
+-Element Node
+-Attribute Node
+-Text Node
+
+HTML Semantics
+-Semantic-word with a meaning.
+-Semantic HTML offers meaning to the web page rather than just presenting.
+-It provides information about the content of those tags. For instance,text enclosed in code tag is recognised by browser that it might be same type of coding language.
+-Purpose is to provide more accessibility so that the data can be accessed across applications and communities.
+Benefits:
+-Helps in SEO
+-Can be accessed by screen eaders to help visually mpaired users navigate a page.
+-Helps the developer.
+-defines meaning along with the presentation.
+Semantic tags: header,nav,section,main,article,mark,time,details,summary,footer
+
+Editor Setup
+-VSCode Editor
+-Extensions used: Beautify, Live Server, emmet
