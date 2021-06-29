@@ -1,0 +1,48 @@
+Frontend Development + React JS
+Topics to be covered:
+1. What is Frontend Development?
+2. All about HTML
+3. HTML tags and attributes
+4. Basic markup of HTML
+5. HTML elemensts display property.
+6. HTML Forms.
+7. Document object Model(DOM)
+8. HTML Semantics
+9. Editor Setup
+
+1. What is Frontend Development?
+
+Frontend Development is all about what users see or interact with in the browser or application.
+
+-Also known as client side development.
+-Practice of developing User Interfaces using HTML, CSS, and JS for websites.
+-Objective is to create User Interfaces keeping user interaction in mind, allow ease to users to navigate through data.
+-Hypertext Markup Language(HTML) is the backbone of any Website Develeopment process.
+-Frontend Development manages everything that users visually see first in their browser or application.
+
+As a frontend developer, I am responsible for the look, feel and ultimate design of the site.
+
+2. All about HTML
+-Created by Tim Berners-Lee in 1991.
+-Hypertext means link between web pages and Markup language defines the text documentation within the tag that describes the structure of the web pages.
+-HTML contains various nested elements, tags, etc.
+-It tells the browser how to display the content, describes the layout of the web page.
+-It can be saved in htm and html extension.
+-latest version: HTML5
+
+HTML Elements, Tags and Attributes
+-HTML is a markup language making use of series of elements, which is basically used to wrap,enclose the content to render it on the screen, paper or any media.
+-HTML elements are created using tags.
+-Elements can have various different attributes providing additional information about elements. It is always defined in the starting tag.
+-Elements can be nested in one another.
+
+Root: html
+Meta: head,meta,link,style,title
+Sectioning Root: body
+Text content: div,hr,ul,al,li,pre
+Inline text tags: a,b,br,span,strong,small
+Media: img,video,map,
+Scripting: script,canvas
+Other: iframe(embeds another HTML page into current one)
+Few HTML elements like hr does'nt contain any content. They are called empty elements.
+
