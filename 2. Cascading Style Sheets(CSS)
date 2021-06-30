@@ -57,3 +57,28 @@ CSS Selectors
 --Pseudo_classes: To style elements based on certain state that element is in
 --Pseudo_elements: Style specified parts of an element based on the selector type.
 
+CSS Box Model
+-Everything in CSS has a box wrapped around it by which it is able to create layouts in CSS or the alignment.
+-It defines how different part of a box work together-margin,padding,border and the content.
+--To set the width and height of an element correctly in all browsers, we should know how a box model works.
+-Standard Box Model
+--defined height and width is of the content-box.
+--Actual width will be different based on the padding and border values.
+--Margin is not taken into account but it does affect the space taken by the box.
+-Alternative box model
+--defined width and height is the 
+--padding,border are taken into the account wrt to the content.
+-By default browser uses standard box model 
+
+CSS Properties
+-Colors
+-Border
+-Margin
+-Padding
+-Text Formatting
+-Font Formatting
+-List Formatting
+-Display
+-Position
+-zindex
+-Opacity
