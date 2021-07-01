@@ -32,4 +32,18 @@ Ex: let executeAction = function() {
 }
 -We can make use of 'typeof' operator to check the data type of Javascript variable.
 
+Javascript Functions
+-Functions are a block of code designed to perform certain task.
+-Functions are not executed automatically, instead executed when invocation occurs.
+-Syntax: function something() {  //code..  }
+--function keyword followed by parentheses{}
+--Can take parameters
+--All logic is written inside curly braces {}
+-When return statement is encountered, function will stop execution and value is returned to the other.
+
+-# Arrow Functions
+--Introduced in ECMAScript.
+--Shorter Syntax
+--Helps in overcoming issue that may occur by hoisting. 
+
 
