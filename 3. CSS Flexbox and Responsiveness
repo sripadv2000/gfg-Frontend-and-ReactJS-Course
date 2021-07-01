@@ -1,0 +1,49 @@
+3. CSS Flexbox and Responsiveness
+
+Topics to be Covered
+-CSS Flexbox
+-Flexbox Properties
+-Media Queries
+-Breakpoints
+
+CSS Flexbox
+-Flexible Box or in short Flexbox, is a set of propperties to provide exceptional layout system.
+-It allows ease to create layouts for complex applications and pages.
+-Super powerful and easy to use, offers variety of properties to achieve layouts that are complex or before Flexbox pretty hard to carry out.
+-Helps in creating responsive layouts without using float or positioning.
+-The CSS displays_flex property sets an HTML element as a block level flex container which takes the full width of its parent container and children inside any flex container are called flex-items.
+
+Why Flexbox?
+-It helps in creating responsive layouts.
+-HTML elements are by default either inline or block level, so if we need to align them in a row, we have to rely on properties like float, or make use of display property but only if we use Flexbox, we can easily control the layout behaviour of all of its children.
+
+Benefits
+-Reversing the flow of render of children(s).
+-Specifying direction either row or column.
+-Changing order based on screen size if required w/o changing html order,etc.
+
+Media Queries
+-CSS2 introduced media rule, which made possible to define rules based on different media types.
+-CSS3 extended the media rule idea by providing more capabilities.
+-Media Queries can be used based on multiple things.
+--width and height of viewport/device
+--Orientation
+--Resolution
+-Syntax: @media mediaType and {expression} [and {expression}]?
+-Syntax resolves in either true or false based on the expression
+-Where mediaType can be : all.print,screen,speech
+-Media queries are a way to target browsers by certain characteristics, features and then apply styles or run other code based on those.
+
+Breakpoints
+-A breakpoint is a key to determine when to change the ayout and the new rules inside the media queries.
+-Major devices:
+--mobile
+--tablet
+--laptop
+-Breakpoints
+--Extra small devices: <576px
+--Small devices: >=576px
+--Medium devices: >=768px
+--Large devices: >991px
+--Extra Large devices: >=1200px
+--Extra extra large devices: >=1400px
