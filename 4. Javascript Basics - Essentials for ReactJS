@@ -1,0 +1,35 @@
+Javascript Basics - Essentials for ReactJS
+
+Topics to be covered
+-Javascript Basics
+-Data Types
+-Javascript Functions
+-ES6 Features
+-Asynchronous Programming
+-Promises
+-Async/Await
+
+Javascript Basics
+-Javascript is a dynamic, weakly typed programming language which compiles at runtime.
+-Executed as a part of webpage in the browser or on any host environment.
+-Created to make webpages more dynamic(manipulating DOM and implementing many other functionalities)
+-Javascript makes webpages more reactive.
+-Javascript is an event-driven programming language.
+-Javascript is synchronous single threaded language.
+-Javascript is totally independent from JAVA and has nothing in common.
+
+Javascript Data Types
+-Primitive Data Type: Single simple data value with no additional properties:
+--String: Ex: let userName = 'Sripad';
+--Number: Ex: let actionType = 10;
+--Boolean: Ex: let isAction = true;
+--Undefined: Ex: let hasAction = undefined;
+-Complex Data Type: May have additional properties and/or method(s):
+--Boject: Ex: let actionProperties = { key: 'value'};
+--Function: 
+Ex: let executeAction = function() {
+    console.log('Something')'
+}
+-We can make use of 'typeof' operator to check the data type of Javascript variable.
+
+
