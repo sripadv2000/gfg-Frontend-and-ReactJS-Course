@@ -46,4 +46,28 @@ Javascript Functions
 --Shorter Syntax
 --Helps in overcoming issue that may occur by hoisting. 
 
+#Callback Functions
+-A function which is passed as an argument to another function.
+-This technique enables a function to call another function which is being passed as an argument.
+-Really useful in Asynchronous Programming and operations.
+
+ECMAScript6 Features
+-forEach vs map
+--forEach executes a provided function once for each element in array and does'nt return anyhing whereas map creates a new array with the result of provided function.
+--Map is much faster than forEach.
+--Map allocates memory and store returned values.
+-Spread Operator
+--To copy the array or object.
+--Addresses are copied not the references.
+let block = [1,2];
+let copiedBlock = [...block];
+-Destructuring
+--Works left to right.
+--Pulls out the values based on index.
+--Rest operator can be used to collect all the indexes remaining.
+let data = ['Sripad','Hero','SDE']
+let [firstName, lastName, ...restInformation ] = data
+console.log({firstName, lastName, restInformation})
+
+
 
