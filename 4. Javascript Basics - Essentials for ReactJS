@@ -69,5 +69,18 @@ let data = ['Sripad','Hero','SDE']
 let [firstName, lastName, ...restInformation ] = data
 console.log({firstName, lastName, restInformation})
 
+Asynchronous Programming
+-Asynchronous means that things can run independently of the main program flow.
+-Traditionally every program runs for a specific time slot and then it stops and let another program continues their execution.
+    This thing happens so fast that it seems like an illusion of simultneous execution except on multiprocess machines.
+-Javascript is synchronous and single threaded, execution happens line after line.
+-Certain operations take a bit longer to execute, so not to block our main thread "Asynchronous Code Execution" comes into picture.
+-These operations are handled by Environment i.e, Browser, Browser provides a way to do it by providing a set of APIs that can handle these kind of functions.
+-Callbacks are the heart of Asynchronous Programming, used everywhere in Javascript not just in DOM events.
+For example:
+--setTimeout
+--HTTP Calls
+--Local Storage,etc.
+
 
 
