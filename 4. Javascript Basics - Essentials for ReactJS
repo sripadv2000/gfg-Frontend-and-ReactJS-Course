@@ -81,6 +81,27 @@ For example:
 --setTimeout
 --HTTP Calls
 --Local Storage,etc.
+-Problem with Callback(s)
+--Callback Hell !
+---Nesting levels can be increased when there are a lot of Callbacks.
 
+Javascript Promises
+-The Promise object supports two properties: state and result.
+-Used to handle asynchronous actions may result in success or failure.
+-Three states:
+--Pending
+--Fulfilled
+--Rejected
+-When a Promise object is "fulfilled", the result is a value. When a Promise object is "rejected", the result is an error object.
 
-
+Async/Await
+-Special syntax to work with promises.
+-Easy to use and understand
+-'async' means -- a function will always return a promise.
+-'await' only works inside "async functions"
+-It makes code execution synchronous i.e, line after line
+async function employeeMap(){
+    let id = await getEmployeeId();
+    let details = await getEmployeeDetails(id);
+    console.log({ id,details })
+}
