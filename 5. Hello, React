@@ -1,0 +1,63 @@
+React is a JavaScript library for creating User Interfaces. 
+React uses JavaScript to deliver amazing user experiences when it comes to serving single-page applications.
+
+Topics to be Covered
+-About ReactJS
+-Node Package Manager and Setup
+-React App Setup and Structure
+-Roadmap
+-External Resources
+
+About ReactJS
+-React is not a JS framework. This is a misconception.
+-React is a JavaScript library for building User Interfaces.
+-A client-side JavaScript library.
+-ReactJS makes building concepts and modern reactive User Interfaces for web easier.
+-Single Page Application(SPA) i.e, Server only sends one HTML page then React takes over and controls the UI.
+-It is declarative, component focussed approach.
+-React can be used to control parts of HTML(DOM) pages or entire Apps.
+-Things get easier with ReactJS.
+-Developed and monitored by Facebook and Community.
+One of the most important aspects of React is the fact that you can create Components, which are like Custom, reusable HTML elements,
+to quickly and efficiently build user interface.
+React also streamlines how data is siored and handled, using state and props.
+
+Node Package Manager and Setup
+-It is the world's largest Software Registry and free to use.
+-Open Source developers use NPM to share software.
+-NPM is shipped with Node.js
+-All NPM packages are defined in 'package.json' file and content of the file is in JSON format.
+-Uses to manage dependencies and install.
+-Node and NPM installation
+-NPM vs NPX(available in NPM 5.2+)
+
+React App Setup and Structure
+-We will be using- Create React App
+-Works on macOS, Windows and Linux.
+-We can install this package 'create-react-app' globally, although it is not recommended and make use of
+'npx' to ensure that installation always happens with the latest version.
+-Requirements
+--Node 10.6.0 or later version
+-Installation gives us only simple set of files and folders with no complicated structure.
+
+In cmd, npx create-react-app react-tutorial
+
+React or Angular?
+React is a JS library used for medium-size or fairly large applications but not for enterprise level applications.
+Angular is a full fledged framework based on MVC. It is proper structured and it can be used for enterprise level applications.
+Angular makes use of Typescript. It would be difficult if we don't know Typescript.
+But React is just based on JS. If we know JS, we can go ahead with React.
+
+MERN stack or React+Django?
+Based on requirement. 
+
+Roadmap
+-Overview
+-JSX
+-Components
+-Form Handling
+-Hooks
+-HTTP Calls/ Asynchronous calls to save data and fetch
+-Routing
+-Project Finalization
+
